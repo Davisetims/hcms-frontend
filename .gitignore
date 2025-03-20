@@ -1,0 +1,28 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency folders
+node_modules/
+bower_components/
+
+# Ignore logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore build artifacts
+dist/
+build/
+out/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore editor settings
+.vscode/
+.idea/
+*.swp
